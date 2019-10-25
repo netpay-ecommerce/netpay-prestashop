@@ -1,0 +1,37 @@
+{
+  "name": "netpaymx/netpay-php",
+  "description": "NetPay PHP Library",
+  "keywords": [
+    "netpaymx",
+    "payment processing",
+    "api"
+  ],
+  "homepage": "https://netpay.mx/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "NetPay and contributors",
+      "homepage": "https://github.com/netpay-ecommerce/netpay-php/contributors"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0",
+    "php-coveralls/php-coveralls": "1.*",
+    "squizlabs/php_codesniffer": "~2.0",
+    "symfony/process": "~2.8"
+  },
+  "autoload": {
+    "psr-4": { "Netpay\\" : "lib/" }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0-dev"
+    }
+  }
+}

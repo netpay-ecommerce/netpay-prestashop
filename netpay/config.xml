@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>netpay</name>
+    <displayName><![CDATA[NetPay]]></displayName>
+    <version><![CDATA[1.0.1]]></version>
+    <description><![CDATA[NetPay is an online payment service provider that offers a wide variety of both worldwide and local payment methods. Additional information can be found at:&lt;br&gt;&lt;b&gt;&lt;a href=&quot;https://www.netpay.mx&quot; target=&quot;_blank&quot;&gt; https://www.netpay.mx&lt;/a&gt;&lt;br&gt;
+            &lt;a href=&quot;https://developers.netpay.com.mx&quot; target=&quot;_blank&quot;&gt; https://developers.netpay.com.mx&lt;/a&gt;&lt;/b&gt;]]></description>
+    <author><![CDATA[Netpay]]></author>
+    <tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to uninstall NetPay?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>
